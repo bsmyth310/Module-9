@@ -1,14 +1,14 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+undefined
     
-  # Employee Tracker
-
-  ## Description
+    # osglk'f
   
-    To create a professional ReadMe file
+    ## Description
+  
+    osl;'gk
   
     ## Table of Contents
   
-    - .[Installation](#installation)
+    - [Installation](#installation)
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
@@ -22,16 +22,16 @@
   
     ## Usage
   
-    To create a professional ReadMe file
+    skl;gd
     
   
     ## Credits
   
-    Google
+    igoesrjl
   
     ## License
   
-    This application is covered under the MIT license. Read more at [License: MIT](https://opensource.org/licenses/MIT)
+    This application is covered under the s;oglk license. Read more at undefined
   
     ## Contributions
   
@@ -40,10 +40,10 @@
     ## Tests
   
     npm run test
-   
+  
     ## Questions
   
-    1. Where can I find your github so that I can view your other projects? https://github.com/bsmyth310
+    1. Where can I find your github so that I can view your other projects? https://github.com/i;ewrjflds
    
-    2. What email address should I use to contact you regarding further opportunities or questions? smythbenb@gmail.com
+    2. What email address should I use to contact you regarding further opportunities or questions? o;'ljrsk
   

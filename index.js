@@ -1,77 +1,65 @@
 //Imports
-const inquirer = require("inquirer");
+const inquirer = require("inquirer")
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown.js")
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 //array of questions
 const questions = [
     {
         type: 'input',
         name: 'github',
-        message: "What's your username?",
+        message: 'What is your github username?',
     },
-
     {
         type: 'input',
         name: 'email',
-        message: "What's your email address?",
+        message: 'What is your email address?',
     },
-
     {
         type: 'input',
         name: 'title',
-        message: "What's your project's title?",
+        message: 'What is your project called?',
     },
-
     {
         type: 'input',
         name: 'description',
-        message: "Please write a short description of your project.",
+        message: 'Write a short description about your project',
     },
-
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: "Which licenses are you using for this project?",
+        message: 'Which license are you using for this project?',
         choices: ["MIT", "Apache", "GPL"]
     },
-
     {
         type: 'input',
         name: 'installation',
-        message: "What command should be run to install dependencies?",
-        default: 'npm i'
+        message: 'What should someone do to install your project?',
     },
-
     {
         type: 'input',
         name: 'usage',
-        message: "How do you use this project?",
+        message: 'How do you use this project?',
     },
-
     {
         type: 'input',
         name: 'picture',
-        message: "What's the filepath for your project picture? (ex: ./assets/img/{insertpicturename}) (if no picture, leave blank)",
+        message: "What is the filepath for your project picture? (ex: ./pictures/{insertpicturenamehere})(if you don't have one, keep this blank)",
     },
-
     {
         type: 'input',
         name: 'credits',
-        message: "List all sources you used for credit",
+        message: 'List any sources that you owe credit to.',
     },
-
     {
         type: 'input',
-        name: 'contributions',
-        message: "What does the user need to know about contrinuting to the repository?",
+        name: 'contribution',
+        message: 'How would someone contribute to this project?',
     },
-
     {
-        type: "input",
+        type: 'input',
         name: 'tests',
-        message: "What command should be run to run tests?",
-        default: "npm run test"
+        message: 'How would someone test this project?',
     },
 ];
 

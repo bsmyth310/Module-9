@@ -1,10 +1,10 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-    # ReadMe Generator Pro V1
+    # ReadMe Generator Pro V1.1
 
     ## Description
 
-    This is a test to generate a readme
+    This is a test
 
     ## Table of Contents
 
@@ -30,7 +30,7 @@
 
     ## License
 
-    This application is covered under ${license} license. Read more at ${renderLicenseLink(license)}
+    This application is covered under Apache license. Read more at [License](https://opensource.org/licenses/Apache-2.0)
 
     ## Contributions
 

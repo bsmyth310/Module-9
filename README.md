@@ -1,10 +1,10 @@
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-    # ReadMe Generator Pro V1.1
+    # ReadMe Generator  Pro V1.2
 
     ## Description
 
-    This is a test
+    Generate Readme Consistently and professionally
 
     ## Table of Contents
 
@@ -30,7 +30,7 @@
 
     ## License
 
-    This application is covered under Apache license. Read more at [License](https://opensource.org/licenses/Apache-2.0)
+    This application is covered under GPL license. Read more at [License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)
 
     ## Contributions
 

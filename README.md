@@ -12,7 +12,7 @@
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
-    - [contributions](#contribution)
+    - [contributions](#contributions)
     - [Tests](#tests)
     - [Questions](#questions)
 

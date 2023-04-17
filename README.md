@@ -1,8 +1,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
     
-    # ReadMe Generator Pro V1.6
-  
-    ## Description
+  # Employee Tracker
+
+  ## Description
   
     To create a professional ReadMe file
   

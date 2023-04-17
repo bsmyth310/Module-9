@@ -1,10 +1,10 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
   
-  # ReadMe Generator Pro V1.8
+  # Readme Generator Pro V1.9
 
   ## Description
 
-  Generate a new readme
+  Generates a readme with inputs from the user
 
   ## Table of Contents
 
@@ -18,20 +18,20 @@
 
   ## Installation
 
-  Download code and run it
+  Download the files in zip format, open with either CMD or VS code and node index.js
 
   ## Usage
 
-  To generate the Read Me
+  We use to have a templated readme generated for us
   
 
   ## Credits
 
-  Google
+  Google and github
 
   ## License
 
-  This application is covered under the MIT license. Read more at [License: MIT](https://opensource.org/licenses/MIT)
+  This application is covered under the Apache license. Read more at [License](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributions
 
@@ -39,7 +39,7 @@
 
   ## Tests
 
-  NPM Tests
+  npm run tests
 
   ## Questions
 

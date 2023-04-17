@@ -1,63 +1,69 @@
 //Imports
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown.js")
 
 //array of questions
 const questions = [
     {
-        type: "input",
-        name: 'Github',
+        type: 'input',
+        name: 'github',
         message: "What's your username?",
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'email',
         message: "What's your email address?",
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'title',
         message: "What's your project's title?",
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'description',
         message: "Please write a short description of your project.",
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'license',
         message: "Which licenses are you using for this project?",
         choices: ["MIT", "Apache", "GPL"]
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'installation',
         message: "What command should be run to install dependencies?",
         default: 'npm i'
     },
 
     {
-        type: "input",
+        type: 'input',
+        name: 'usage',
+        message: "How do you use this project?",
+    },
+
+    {
+        type: 'input',
         name: 'picture',
         message: "What's the filepath for your project picture? (ex: ./assets/img/{insertpicturename}) (if no picture, leave blank)",
     },
 
     {
-        type: "input",
+        type: 'input',
         name: 'credits',
         message: "List all sources you used for credit",
     },
 
     {
-        type: "input",
-        name: 'contribute',
+        type: 'input',
+        name: 'contributions',
         message: "What does the user need to know about contrinuting to the repository?",
     },
 
@@ -72,7 +78,7 @@ const questions = [
 //function to write Readme file
 function writeToFile(fileName, readMe) {
     fs.writeFile(fileName, readMe, (err) =>
-    err ? console.log(err) : console.log('Successfully created ${fileName}')    
+      err ? console.log(err) : console.log(`Successfully created ${fileName}`)
 )}
 
 //function to initialize the program
